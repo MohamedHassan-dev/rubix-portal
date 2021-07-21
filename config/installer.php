@@ -90,7 +90,7 @@ return [
                 'database_port'         => 'required|numeric',
                 'database_name'         => 'required|string|max:50',
                 'database_username'     => 'required|string|max:50',
-                'database_password'     => 'required|string|max:50',
+                'database_password'     => 'required|string|max:100',
                 'admin_email'           => 'required|email',
                 'admin_first_name'      => 'required|string|max:20',
                 'admin_last_name'       => 'required|string|max:30',

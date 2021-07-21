@@ -166,7 +166,7 @@
                     <label for="database_password">
                         Password
                     </label>
-                    <input type="text" name="database_password" id="database_password" value="{{ old('database_password', env('DB_PASSWORD')) }}" maxlength="50"/>
+                    <input type="text" name="database_password" id="database_password" value="{{ old('database_password', env('DB_PASSWORD')) }}" maxlength="100"/>
                     <span style="color: #AAAAAA; position: relative; top: -5px;">(Maximum password length is 50 characters)</span>
                     @if ($errors->has('database_password'))
                         <span class="error-block">
